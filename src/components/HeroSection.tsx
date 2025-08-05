@@ -351,19 +351,15 @@ const HeroSection = () => {
 
       {/* Central Text - Main Focus */}
       <div className="text-center z-20 max-w-6xl mx-auto px-4">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-tight">
           <span className="bg-gradient-to-r from-blue-900 via-cyan-500 to-orange-500 bg-clip-text text-transparent hover-lift">
-            Connecting Hearts,
-          </span>
-          <br />
-          <span className="bg-gradient-to-r from-orange-500 via-cyan-500 to-blue-900 bg-clip-text text-transparent hover-lift">
-            Changing Lives
+            Heart Reach
           </span>
         </h1>
         
-        {/* Subtle subtitle */}
-        <p className="text-lg md:text-xl text-gray-600 mt-8 max-w-2xl mx-auto">
-          Cognizant's commitment to building bridges of empathy and driving positive change in communities worldwide
+        {/* Tagline */}
+        <p className="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-8 max-w-4xl mx-auto font-medium">
+          Connecting Hearts, Changing Lives
         </p>
       </div>
 
